@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20G165" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Camera" representedClassName="Camera" syncable="YES">
+        <attribute name="azimuth" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="clName" optional="YES" attributeType="String"/>
+        <attribute name="complexId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="directionId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="directionName" optional="YES" attributeType="String"/>
+        <attribute name="externalId" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="lng" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="placeName" optional="YES" attributeType="String"/>
+        <attribute name="purposeTypeId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="purposeTypeName" optional="YES" attributeType="String"/>
+        <attribute name="stateId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stateName" optional="YES" attributeType="String"/>
+        <attribute name="summaryEfficiency" optional="YES" attributeType="String"/>
+        <attribute name="summaryPassages" optional="YES" attributeType="String"/>
+        <attribute name="summaryResolutions" optional="YES" attributeType="String"/>
+        <attribute name="summaryViolations" optional="YES" attributeType="String"/>
+        <attribute name="tsafap" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="typeName" optional="YES" attributeType="String"/>
+        <attribute name="unworkReasons" optional="YES" attributeType="String"/>
+        <attribute name="workerDays" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="workerId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="workerName" optional="YES" attributeType="String"/>
+        <attribute name="workFlag" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="workState" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="workTitle" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Complex" representedClassName="Complex" syncable="YES">
+        <attribute name="clId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="clName" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="lng" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="model" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="placeName" optional="YES" attributeType="String"/>
+        <attribute name="serfiffEndDate" optional="YES" attributeType="String"/>
+        <attribute name="state" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stateName" optional="YES" attributeType="String"/>
+        <attribute name="summaryEfficiency" optional="YES" attributeType="String"/>
+        <attribute name="summaryPassages" optional="YES" attributeType="String"/>
+        <attribute name="summaryResolutions" optional="YES" attributeType="String"/>
+        <attribute name="summaryViolations" optional="YES" attributeType="String"/>
+        <attribute name="typeId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="typeName" optional="YES" attributeType="String"/>
+        <attribute name="unworkReasons" optional="YES" attributeType="String"/>
+        <attribute name="workerDays" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="workState" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="workTitle" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ComplexClass" representedClassName="ComplexClass" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ComplexType" representedClassName="ComplexType" syncable="YES">
+        <attribute name="acronym" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="mobilityType" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="DisableReason" representedClassName="DisableReason" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Dummy" representedClassName="Dummy" syncable="YES">
+        <attribute name="azimuth" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="clId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="clName" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="inventoryNumber" optional="YES" attributeType="String"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="lng" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="placeName" optional="YES" attributeType="String"/>
+        <attribute name="serialNumber" optional="YES" attributeType="String"/>
+        <attribute name="stateId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stateName" optional="YES" attributeType="String"/>
+        <attribute name="typeId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="typeName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="RefuseReason" representedClassName="RefuseReason" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="reason" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Violation" representedClassName="Violation" syncable="YES">
+        <attribute name="cameraId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="complexId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="directionId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="directionName" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="limitStr" optional="YES" attributeType="String"/>
+        <attribute name="parentId" optional="YES" attributeType="String"/>
+        <attribute name="state" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stateName" optional="YES" attributeType="String"/>
+        <attribute name="statePriority" optional="YES" attributeType="String"/>
+        <attribute name="violExcessLevel" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="violId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="violLimitId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="violName" optional="YES" attributeType="String"/>
+        <attribute name="violValueLimit" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="violValueUnit" optional="YES" attributeType="String"/>
+        <attribute name="zoneId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="zoneName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ViolationType" representedClassName="ViolationType" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Camera" positionX="-63" positionY="-18" width="128" height="463"/>
+        <element name="Complex" positionX="-54" positionY="-9" width="128" height="358"/>
+        <element name="ComplexClass" positionX="-45" positionY="144" width="128" height="73"/>
+        <element name="ComplexType" positionX="-36" positionY="153" width="128" height="103"/>
+        <element name="DisableReason" positionX="-18" positionY="162" width="128" height="73"/>
+        <element name="Dummy" positionX="-54" positionY="135" width="128" height="268"/>
+        <element name="RefuseReason" positionX="0" positionY="171" width="128" height="73"/>
+        <element name="Violation" positionX="-54" positionY="135" width="128" height="313"/>
+        <element name="ViolationType" positionX="18" positionY="180" width="128" height="74"/>
+    </elements>
+</model>
